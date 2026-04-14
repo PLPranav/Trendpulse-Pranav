@@ -11,7 +11,7 @@ def clean_and_convert():
 
     if not os.path.exists(json_path):
         print(f"ERROR: {json_path} not found! Did Task 1 finish successfully?")
-        return
+        return 
 
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
