@@ -17,7 +17,7 @@ headers = {"User-Agent": "TrendPulse/1.0"}
 def fetch_trending_stories():
     all_collected_stories = []
     category_counts = {cat: 0 for cat in CATEGORIES}
-    
+     
     print("Fetching top story IDs...")
     top_stories_url = "https://hacker-news.firebaseio.com/v0/topstories.json"
     try:
