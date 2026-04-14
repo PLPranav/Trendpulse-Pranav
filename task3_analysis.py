@@ -9,7 +9,7 @@ def perform_analysis():
     
     if not os.path.exists(csv_path):
         print(f"ERROR: {csv_path} not found. Please run Task 2 first!")
-        return
+        return 
 
     df = pd.read_csv(csv_path)
 
